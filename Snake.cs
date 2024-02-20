@@ -58,7 +58,7 @@ namespace Severus2
                     Console.SetCursorPosition(X[i], Y[i]);
                     Console.Write("■");
                 }
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.Green;
                 if (X[Length] != 0)
                 {
                     Console.SetCursorPosition(X[Length], Y[Length]);
